@@ -1,6 +1,8 @@
-git+https://github.com/KurimuzonAkuma/pyrogram
+#git+https://github.com/KurimuzonAkuma/pyrogram
+kurigram==2.2.6
 tgcrypto==1.2.5
-yt-dlp>=2024.8.6
+#yt-dlp==2024.8.6
+yt-dlp[default,curl-cffi]>=2025.6.25
 APScheduler==3.10.4
 beautifultable==1.1.0
 ffmpeg-python==0.2.0
